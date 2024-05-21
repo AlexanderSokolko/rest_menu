@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgba(50, 50, 113);
+  padding: 30px;
+  margin-top: 200px;
+}
+.social_media {
+  display: flex;
+  gap: 5px;
+}
+.svg_wrapper {
+  display: flex;
+  background-color: rgb(50, 50, 50);
+  height: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.svg_wrapper:hover {
+  background-color: rgb(74, 74, 74);
+}
+.svg_wrapper:active {
+  background-color: rgb(101, 101, 101);
+}
+.footer svg {
+  width: 70px;
+  fill: gray;
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+  .footer svg {
+    width: 25px;
+    height: 25px;
+  }
+}
